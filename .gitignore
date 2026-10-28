@@ -1,0 +1,27 @@
+# Python / archives / secrets
+__pycache__/
+*.pyc
+*.tgz
+*.zip
+.hf_token
+
+# Eedi competition data: not redistributed here (see eedi_mt/data/README.md)
+eedi_mt/data/*
+!eedi_mt/data/README.md
+
+# Cluster output that is only useful on the cluster
+eedi_mt/logs/
+eedi_mt/rcp/rcp_probe_*
+
+# Big intermediate results: keep only the final data and the summary tables
+eedi_mt/work/*
+!eedi_mt/work/final_v2/
+!eedi_mt/work/judging/
+eedi_mt/work/judging/*
+!eedi_mt/work/judging/summary_by_lang.csv
+!eedi_mt/work/judging_v2/
+eedi_mt/work/judging_v2/*
+!eedi_mt/work/judging_v2/summary_by_lang.csv
+!eedi_mt/work/repair/
+eedi_mt/work/repair/*
+!eedi_mt/work/repair/selection_report.csv

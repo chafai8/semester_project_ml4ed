@@ -1,0 +1,8 @@
+{
+  "_comment": "Optional English rewrites applied to the SOURCE only to get one extra translation candidate (the candidate is still validated against the original source and judged like any other). 'pattern' is a regex, 'replace' its substitute, 'langs' optional (default: all). Edit freely; entries starting with _ are ignored.",
+  "hints": [
+    {"pattern": "\\bWork out\\b", "replace": "Calculate"},
+    {"pattern": "\\bwork out\\b", "replace": "calculate"},
+    {"pattern": "\\bCo-Interior\\b", "replace": "Co-interior angles"}
+  ]
+}
